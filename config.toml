@@ -187,9 +187,15 @@ hasChildren = true
 
 	[[menu.main]]
 	parent = "Acerca de"
+	name = "Otras asociaciones"
+	url = "radioclubs/"
+	weight = 3
+	
+	[[menu.main]]
+	parent = "Acerca de"
 	name = "Contacto"
 	url = "contacto/"
-	weight = 3
+	weight = 4
 
 
 ############################# Footer Menu ########################

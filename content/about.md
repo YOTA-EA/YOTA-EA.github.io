@@ -1,7 +1,7 @@
 ---
 title: "About"
 layout: "about"
-description: "Acerca de YOTA-EA"
+description: "Acerca de YOTA-EA: la comundiad de experimentación de RF y radioaficionados jóvenes de España"
 image: "images/about.jpg"
 draft: false
 
