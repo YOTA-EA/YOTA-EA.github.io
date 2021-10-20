@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://yota-ea.github.io/"
-title = "Bookworm - Personal Blog Template"
+title = "YOTA-EA: Comundiad de radio experimental y radioaficionados jóvenes de España"
 theme = "bookworm-light"
 # post pagination
 paginate = "5"
@@ -82,7 +82,7 @@ search = true
 # main section
 mainSections = ["blog"]
 # copyright
-copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "YOTA España - 2021"
 
 # Preloader
 [params.preloader]
@@ -97,7 +97,7 @@ access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1Nmpx
 
 # Subscription
 [params.subscription]
-enable = true
+enable = false
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
@@ -117,96 +117,109 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "About"
-url = "about/"
+name = "Nosotros"
+url = "ops/"
 weight = 3
 
 [[menu.main]]
-name = "Contact"
-url = "contact/"
+name = "Acerca de"
+url = "about/"
 weight = 4
 
 [[menu.main]]
-name = "Buy Premium"
-url = "https://gethugothemes.com/products/bookworm/"
+name = "Contacto"
+url = "contacto/"
 weight = 5
 
+
 [[menu.main]]
-weight = 6
+weight = 2
 url = "#"
-name = "Pages"
+name = "Blog "
 hasChildren = true
 
-  [[menu.main]]
-  parent = "Pages"
-  name = "Author"
-  url = "author/"
-  weight = 1
+  #[[menu.main]]
+  #parent = "Páginas"
+  #name = "Author"
+  #url = "author/"
+  #weight = 1
 
   [[menu.main]]
-  parent = "Pages"
+  parent = "Blog "
   name = "Tags"
   url = "tags/"
   weight = 2
 
   [[menu.main]]
-  parent = "Pages"
+  parent = "Blog "
   name = "Category"
   url = "categories/"
   weight = 3
 
   [[menu.main]]
-  parent = "Pages"
+  parent = "Blog "
   name = "Elements"
   weight = 4
   url = "elements/"
 
-  [[menu.main]]
-  parent = "Pages"
-  name = "Privacy"
-  url = "privacy/"
-  weight = 5
+  #[[menu.main]]
+  #parent = "Pages"
+  #name = "Privacy"
+  #url = "privacy/"
+  #weight = 5
 
-  [[menu.main]]
-  parent = "Pages"
-  name = "Terms & Conditions"
-  url = "terms-conditions/"
-  weight = 6
+  #[[menu.main]]
+  #parent = "Pages"
+  #name = "Terms & Conditions"
+  #url = "terms-conditions/"
+  #weight = 6
 
 ############################# Footer Menu ########################
 [[menu.footer]]
-name = "About"
+name = "Acerca de"
 url = "about/"
 weight = 1
 
 [[menu.footer]]
-name = "Authors"
-url = "author/"
+name = "Nosotros"
+url = "ops/"
 weight = 2
 
-[[menu.footer]]
-name = "Privacy"
-url = "privacy/"
-weight = 3
+#[[menu.footer]]
+#name = "Privacy"
+#url = "privacy/"
+#weight = 3
+
+#[[menu.footer]]
+#name = "Terms & Conditions"
+#url = "terms-conditions/"
+#weight = 4
 
 [[menu.footer]]
-name = "Terms & Conditions"
-url = "terms-conditions/"
-weight = 4
+name = "Author"
+url = "author/"
+weight = 3
+  
 
 # Social Icons
 [[params.social]]
+icon = "lab la-telegram" # https://icons8.com/line-awesome
+url = "https://t.me/joinchat/p80ELTaRq0plYTJk"
+
+[[params.social]]
+icon = "lab la-discord" # https://icons8.com/line-awesome
+url = "https://discord.gg/a7HQeRpKdV"
+
+[[params.social]]
 icon = "lab la-facebook-f" # https://icons8.com/line-awesome
-url = "https://www.facebook.com/"
+url = "https://www.facebook.com/YOTA-EA"
 
 [[params.social]]
 icon = "lab la-twitter" # https://icons8.com/line-awesome
-url = "https://www.twitter.com/"
+url = "https://www.twitter.com/YOTA_EA"
 
 [[params.social]]
 icon = "lab la-instagram" # https://icons8.com/line-awesome
-url = "https://www.instagram.com/"
+url = "https://www.instagram.com/ea.yota"
 
-[[params.social]]
-icon = "lab la-linkedin-in" # https://icons8.com/line-awesome
-url = "https://www.linkedin.com/"
+

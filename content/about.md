@@ -13,17 +13,17 @@ caption:
 social:
   enable: true
   social_links:
-  - link: "https://www.facebook.com/"
+  - link: "https://t.me/joinchat/p80ELTaRq0plYTJk"
+    icon: "lab la-telegram"
+    
+  - link: "https://www.facebook.com/YOTA-EA"
     icon: "lab la-facebook-f"
 
-  - link: "https://www.twitter.com/"
+  - link: "https://www.twitter.com/YOTA-EA"
     icon: "lab la-twitter"
     
-  - link: "https://www.linkedin.com/"
-    icon: "lab la-linkedin-in"
-    
-  - link: "https://www.github.com/"
-    icon: "lab la-github"
+  - link: "https://www.instagram.com/ea.yota"
+    icon: "lab la-instagram"
 
 # what_i_do
 what_i_do:
