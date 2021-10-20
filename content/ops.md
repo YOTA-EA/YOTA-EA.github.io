@@ -1,7 +1,6 @@
 ---
 title: "Nosotros"
 layout: "about"
-image: "images/about.jpg"
 draft: false
 
 #caption
@@ -11,4 +10,8 @@ caption:
 
 ---
 
+![ops](/images/ops.jpg)
+
 Próximamente: mapa y base de datos de YOTAs-EA
+
+![ops](/images/ops2.jpg)

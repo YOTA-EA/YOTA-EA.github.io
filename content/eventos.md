@@ -1,6 +1,7 @@
 ---
 title: "Eventos"
 layout: "about"
+description: "Próximos eventos de YOTA-EA" 
 draft: false
 ---
 
