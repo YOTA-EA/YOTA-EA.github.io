@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "localhost"
+baseURL = "https://yota-ea.github.io/"
 title = "Bookworm - Personal Blog Template"
 theme = "bookworm-light"
 # post pagination
@@ -115,17 +115,17 @@ expire_days = 2
 name = "Home"
 url = "/"
 weight = 1
-  
+
 [[menu.main]]
 name = "About"
 url = "about/"
 weight = 3
-  
+
 [[menu.main]]
 name = "Contact"
 url = "contact/"
 weight = 4
-  
+
 [[menu.main]]
 name = "Buy Premium"
 url = "https://gethugothemes.com/products/bookworm/"
@@ -142,31 +142,31 @@ hasChildren = true
   name = "Author"
   url = "author/"
   weight = 1
-  
+
   [[menu.main]]
   parent = "Pages"
   name = "Tags"
   url = "tags/"
   weight = 2
-  
+
   [[menu.main]]
   parent = "Pages"
   name = "Category"
   url = "categories/"
   weight = 3
-  
+
   [[menu.main]]
   parent = "Pages"
   name = "Elements"
   weight = 4
   url = "elements/"
-  
+
   [[menu.main]]
   parent = "Pages"
   name = "Privacy"
   url = "privacy/"
   weight = 5
-  
+
   [[menu.main]]
   parent = "Pages"
   name = "Terms & Conditions"
