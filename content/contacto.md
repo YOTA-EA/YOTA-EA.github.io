@@ -13,7 +13,7 @@ caption:
 social:
   enable: true
   social_links:
-  - link: "https://t.me/joinchat/p80ELTaRq0plYTJk"
+  - link: "t.me/AnunciosYOTA_EA"
     icon: "lab la-telegram"
     
   - link: "https://www.facebook.com/YOTA-EA"

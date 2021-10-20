@@ -117,23 +117,12 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Nosotros"
-url = "ops/"
-weight = 3
-
-[[menu.main]]
-name = "Acerca de"
-url = "about/"
-weight = 4
-
-[[menu.main]]
-name = "Contacto"
-url = "contacto/"
-weight = 5
-
-
-[[menu.main]]
 weight = 2
+url = "eventos/"
+name = "Eventos"
+
+[[menu.main]]
+weight = 3
 url = "#"
 name = "Blog "
 hasChildren = true
@@ -152,15 +141,15 @@ hasChildren = true
 
   [[menu.main]]
   parent = "Blog "
-  name = "Category"
-  url = "categories/"
+  name = "Categorías"
+  url = "categorias/"
   weight = 3
 
-  [[menu.main]]
-  parent = "Blog "
-  name = "Elements"
-  weight = 4
-  url = "elements/"
+  #[[menu.main]]
+  #parent = "Blog "
+  #name = "Elements"
+  #weight = 4
+  #url = "elements/"
 
   #[[menu.main]]
   #parent = "Pages"
@@ -174,16 +163,57 @@ hasChildren = true
   #url = "terms-conditions/"
   #weight = 6
 
+
+
+
+
+[[menu.main]]
+name = "Acerca de"
+url = "about/"
+weight = 4
+hasChildren = true
+
+	[[menu.main]]
+	parent = "Acerca de"
+	name = "Nosotros"
+	url = "ops/"
+	weight = 1
+
+	[[menu.main]]
+	parent = "Acerca de"
+	name = "YOTA-EA"
+	url = "about/"
+	weight = 2
+
+	[[menu.main]]
+	parent = "Acerca de"
+	name = "Contacto"
+	url = "contacto/"
+	weight = 3
+
+
 ############################# Footer Menu ########################
+[[menu.footer]]
+weight = 1
+url = "eventos/"
+name = "Eventos"
+
 [[menu.footer]]
 name = "Acerca de"
 url = "about/"
-weight = 1
+weight = 2
 
 [[menu.footer]]
 name = "Nosotros"
 url = "ops/"
-weight = 2
+weight = 3
+
+
+[[menu.footer]]
+weight = 1
+url = "eventos/"
+name = "Eventos"
+
 
 #[[menu.footer]]
 #name = "Privacy"
@@ -204,7 +234,7 @@ weight = 3
 # Social Icons
 [[params.social]]
 icon = "lab la-telegram" # https://icons8.com/line-awesome
-url = "https://t.me/joinchat/p80ELTaRq0plYTJk"
+url = "t.me/AnunciosYOTA_EA"
 
 [[params.social]]
 icon = "lab la-discord" # https://icons8.com/line-awesome
