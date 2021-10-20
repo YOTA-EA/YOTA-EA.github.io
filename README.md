@@ -1,4 +1,4 @@
-# YOTA-EA.github.iopepassaco?tab=repositories
+# Web de YOTA-EA 
 
 Este es el repositorio de la web de YOTA-EA. Está creada con [gohugo](https://gohugo.io/), [Markdown](http://es.wikipedia.org/wiki/Markdown) y `HTML/CSS`.
 
