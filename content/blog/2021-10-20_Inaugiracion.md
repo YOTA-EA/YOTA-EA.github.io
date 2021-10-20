@@ -1,6 +1,6 @@
 ---
 title: "¡Bienvenidos a YOTA-EA!"
-image: "images/post/2021-10-20_Inaugiracion/6.jpg"
+image: "images/post/2021-10-20_Inaugiracion/8.jpg"
 date: 2021-01-24T18:19:25+06:00
 author: "EA1FID"
 tags: ["YOTA", "radioafición", "experimentación"]
