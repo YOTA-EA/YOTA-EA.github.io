@@ -240,7 +240,7 @@ weight = 3
 # Social Icons
 [[params.social]]
 icon = "lab la-telegram" # https://icons8.com/line-awesome
-url = "t.me/AnunciosYOTA_EA"
+url = "https://t.me/AnunciosYOTA_EA"
 
 [[params.social]]
 icon = "lab la-discord" # https://icons8.com/line-awesome
