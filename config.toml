@@ -83,6 +83,7 @@ search = true
 mainSections = ["blog"]
 # copyright
 copyright = "YOTA España - 2021"
+css = "css/custom.css"
 
 # Preloader
 [params.preloader]
@@ -190,7 +191,7 @@ hasChildren = true
 	name = "Otras asociaciones"
 	url = "radioclubs/"
 	weight = 3
-	
+
 	[[menu.main]]
 	parent = "Acerca de"
 	name = "Contacto"
@@ -235,7 +236,7 @@ name = "Eventos"
 name = "Author"
 url = "author/"
 weight = 3
-  
+
 
 # Social Icons
 [[params.social]]
@@ -257,5 +258,3 @@ url = "https://www.twitter.com/YOTA_EA"
 [[params.social]]
 icon = "lab la-instagram" # https://icons8.com/line-awesome
 url = "https://www.instagram.com/ea.yota"
-
-
