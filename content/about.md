@@ -8,7 +8,7 @@ draft: false
 #caption
 caption:
   enable: true
-  title: "Comundiad de experimentación de RF y radioaficionados jóvenes de España"
+  title: "Comunidad de experimentación de RF y radioaficionados jóvenes de España"
 
 # social
 social:
